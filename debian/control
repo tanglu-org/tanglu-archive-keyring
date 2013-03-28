@@ -1,0 +1,27 @@
+Source: tanglu-archive-keyring
+Section: misc
+Priority: important
+Maintainer: Matthias Klumpp <mak@debian.org>
+Build-Depends: debhelper (>= 8), gnupg
+Standards-Version: 3.8.4
+
+Package: tanglu-archive-keyring
+Architecture: all
+Multi-Arch: foreign
+Depends: gpgv, ${misc:Depends}
+Recommends: gnupg
+Description: GnuPG archive keys of the Tanglu archive
+ The Tanglu project digitally signs its Release files. This package
+ contains the archive keys used for that.
+
+Package: tanglu-archive-keyring-udeb
+XC-Package-Type: udeb
+Priority: optional
+Architecture: all
+Section: debian-installer
+Depends: ${misc:Depends}
+Recommends: gpgv-udeb
+Description: GnuPG keys of the Tanglu archive
+ The Tanglu project digitally signs its Release files. This package
+ contains the archive keys used for that, in a minimal form for use
+ in the installer.
