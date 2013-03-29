@@ -3,7 +3,7 @@ Section: misc
 Priority: important
 Maintainer: Matthias Klumpp <mak@debian.org>
 Build-Depends: debhelper (>= 8), gnupg
-Standards-Version: 3.8.4
+Standards-Version: 3.9.4
 
 Package: tanglu-archive-keyring
 Architecture: all
