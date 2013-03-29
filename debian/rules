@@ -16,7 +16,10 @@ install_binary=install -m 755 -s
 
 VERSION := $(shell dpkg-parsechangelog | grep ^Version: | cut -d' ' -f2)
 
-build:
+build: build-arch build-indep
+build-arch: build-stamp
+build-indep: build-stamp
+build-stamp:
 
 clean:
 	$(checkdir)
