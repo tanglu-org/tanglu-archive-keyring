@@ -1,3 +1,12 @@
+tanglu-archive-keyring (2013.02) aequorea; urgency=low
+
+  * Bump standards version
+  * Refer to GPLv2
+  * Fix lintian issue in postinst script
+  * Install keyring to trusted.gpg.d
+
+ -- Matthias Klumpp <mak@debian.org>  Thu, 04 Apr 2013 22:46:42 +0200
+
 tanglu-archive-keyring (2013.01) aequorea; urgency=low
 
   * Initial release with Tanglu archive signing key
