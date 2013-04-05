@@ -1,9 +1,8 @@
 #!/bin/sh
 set -e
 
-# the keyring in /var that gets fetched by apt-key net-update
-# if it does not yet exist, copy it to avoid uneeded net copy
-KEYRINGDIR="/var/lib/apt/keyrings"
+# directory with file fragments for the trusted keys
+KEYRINGDIR="/etc/apt/trusted.gpg.d"
 KEYRING="${KEYRINGDIR}/tanglu-archive-keyring.gpg"
 
 if ! test -d $KEYRINGDIR; then
