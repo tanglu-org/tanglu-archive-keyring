@@ -1,1 +1,1 @@
-353466f6a8dfd63343aec939e32c351b  keyrings/tanglu-archive-keyring.gpg
+e2b45fc21248d5747210cdf5cafe0eec  keyrings/tanglu-archive-keyring.gpg
