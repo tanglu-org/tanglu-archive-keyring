@@ -1,3 +1,10 @@
+tanglu-archive-keyring (2015.04) staging; urgency=medium
+
+  * Add future archive signing key to the keyring
+    - EAA2 7949 6AB8 55EA DDA2  0E23 FEBB CD75 44EF 80AF
+
+ -- Matthias Klumpp <mak@debian.org>  Sat, 25 Apr 2015 21:15:34 +0200
+
 tanglu-archive-keyring (2013.02) aequorea; urgency=low
 
   * Bump standards version
